@@ -34,7 +34,7 @@ function move() {
     marker.setLngLat(trainStops[counter]);
     counter++;
     move();
-  }, 1000);
+  }, 500);
 }
 
 if (typeof module !== 'undefined') {
